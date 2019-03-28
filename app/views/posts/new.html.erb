@@ -9,6 +9,8 @@
               <%= message %>
             </div>
           <% end %>
+          店名
+          <textarea name="store_name"><%= @post.store_name %></textarea>
           <input name="image" type="file">
           <textarea name="content"><%= @post.content %></textarea>
           <input type="submit" value="投稿">
