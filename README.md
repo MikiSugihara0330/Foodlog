@@ -1,5 +1,5 @@
 # README
-
+* MikiSugihara0330 とチーム開発しました
 * Ruby version: 2.5.0
 * Rails version: 5.0.7.2
 * ログイン機能あります
