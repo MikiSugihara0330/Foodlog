@@ -15,9 +15,9 @@ class PostsController < ApplicationController
   def create
     @post = Post.new(content: params[:content], image_name: "default_user.jpg")
     @post.store_name = params[:store_name]
-    
+    @post.save
     if params[:image]
-      @post.image_name = "#{@post.id}.jpg"
+      @post.image_name = "#{@post.id}.jpg"          
       image = params[:image]
       File.binwrite("public/food_images/#{@post.image_name}", image.read)
     end
@@ -37,6 +37,7 @@ class PostsController < ApplicationController
   def update
     @post = Post.find_by(id: params[:id])
     @post.content = params[:content]
+    
     if @post.save
       flash[:notice] = "投稿を編集しました"
       redirect_to("/posts/index")

@@ -3,14 +3,15 @@
     <div class="posts-show-item">
       <img src = "<%="/food_images/#{@post.image_name}"%>">
       <p>
-        <%= @post.store_name %>
+        Store Name: <%= @post.store_name %>
       </p>
 
+      <p id= Review>Review</p>
       <p>
         <%= @post.content %>
       </p>
 
-      
+
       <div class="post-time">
         <%= @post.created_at %>
       </div>
