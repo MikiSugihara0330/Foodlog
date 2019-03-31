@@ -1,13 +1,19 @@
 <div class="main posts-index">
   <div class="NewPost">
     New Posts
-  </div>
+  </div>  
 
   <div class="container2">
     <% @posts.each do |post| %>
-    <div class ="item">
+      <!-- <div class="post-left">
+           <img src="<%= "/user_images/#{post.user.image_name}" %>">        
+           </div> -->
+      <div class ="item">
       <img src = "<%="/food_images/#{post.image_name}"%>">
       <div class="posts-index-item">
+        <div class="post-user-name">
+            <%= link_to(post.user.name, "/users/#{post.user.id}") %>
+          </div>
         <a><%= link_to(post.content, "/posts/#{post.id}") %></a>
       </div>
     </div>
