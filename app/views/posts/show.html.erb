@@ -1,13 +1,17 @@
 <div class="main posts-show">
   <div class="container">
     <div class="posts-show-item">
-      <!-- <img src="<%= "/user_images/#{@user.image_name}" %>"> -->
-      <div class="post-user-name">
-        <%= link_to(@user.name, "/users/#{@user.id}") %>
+
+      <div class = "user_info">
+        <img src="<%= "/user_images/#{@user.image_name}" %>">
+
+        <div class="post-user-name">
+          <%= link_to(@user.name, "/users/#{@user.id}") %>
+        </div>
       </div>
-      
+
       <img src = "<%="/food_images/#{@post.image_name}"%>">
-      
+
       <p>
         Store Name: <%= @post.store_name %>
       </p>
@@ -29,7 +33,7 @@
         <% end %>
       <% end %>
       <%= @likes_count %>
-      
+
       <% if @post.user_id == @current_user.id %>
         <div class="post-menus">
           <%= link_to("編集", "/posts/#{@post.id}/edit") %>
