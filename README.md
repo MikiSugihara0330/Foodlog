@@ -5,7 +5,7 @@
   * MikiSugihara0330: Webデザイン
   * NaokiOsako: バックエンド
 
-* 機能一覧
+* 機能一覧!!!!!!!
   * 記事一覧表示機能
   * 記事詳細表示機能
   * 記事投稿機能
@@ -17,11 +17,8 @@
   * email: taro.gmail.com
   * password: taro
 * 随時更新中
-![ログイン画面](/pictures/login.png) 
-![投稿一覧](/pictures/posts_index.png) 
-![投稿詳細](/pictures/posts_show.png) 
-![ユーザー一覧](/pictures/users_index.png) 
-![ユーザー詳細](/pictures/users_show.png) 
-
-
-
+![ログイン画面](/pictures/login.png)
+![投稿一覧](/pictures/posts_index.png)
+![投稿詳細](/pictures/posts_show.png)
+![ユーザー一覧](/pictures/users_index.png)
+![ユーザー詳細](/pictures/users_show.png)
