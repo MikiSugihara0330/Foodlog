@@ -16,7 +16,7 @@
 * ユーザ登録が面倒な場合, 下記のメールアドレス, パスワードでログインできます
   * email: taro.gmail.com
   * password: taro
-* 随時更新中
+* 随時更新中!
 ![ログイン画面](/pictures/login.png)
 ![投稿一覧](/pictures/posts_index.png)
 ![投稿詳細](/pictures/posts_show.png)
