@@ -66,9 +66,9 @@ body {
 
 /* ヘッダー ================================ */
 header {
-  height: 64px;
+  height: auto;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   background-color: rgb(89,71,96);
   box-shadow: 0px 10px 15px rgba(0,0,0,0.6);
@@ -77,7 +77,6 @@ header {
 .header-logo {
   float: left;
   padding-left: 20px;
-  color: white;
   font-size: 22px;
   line-height: 64px;
   font-family: Pacifico sans-serif;
@@ -88,41 +87,37 @@ header {
   font-size: 22px;
 }
 
+.navbar-toggler span{
+  color:white;
+  z-index: 4;
+}
+
 .header-menus {
   float: right;
   padding-right: 20px;
 }
 
-.header-menus li {
+.header-menues li {
   float: left;
   line-height: 64px;
   font-size: 13px;
   color: white;
-  padding-left: 15px;
+  padding: 5px;
+  margin-left:10px;
 
   &:hover{
-    background-color: rgb(89,71,0);
+    background: rgba(255,255,255,0.5);
   }
-}
 
-.header-menus a {
-  float: left;
-  font-size: 13px;
-  color: white;
+  a{
+    color:white;
+  }
 }
 
 .header-menus .fa {
   padding-right: 5px;
 }
 
-.header-menus input[type="submit"] {
-  padding: 0 20px;
-  float: left;
-  line-height: 64px;
-  color: white;
-  margin: 0;
-  font-size: 13px;
-}
 
 .header-apple {
     float: left;
