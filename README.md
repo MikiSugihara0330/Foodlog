@@ -2,8 +2,8 @@
 * Ruby version: 2.5.0
 * Rails version: 5.0.7.2
 * チーム開発しました
-  * MikiSugihara0330: Webデザイン
-  * NaokiOsako: バックエンド
+  * Sugizaki: Webデザイン
+  * Osako: バックエンド
 
 * 機能一覧
   * 記事一覧表示機能
